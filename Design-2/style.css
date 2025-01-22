@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-wrapper {
+  min-height: 100vh;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.right,
+.left {
+  width: 300px;
+  height: 100%;
+}
+.main-left,
+.main-right {
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #2b2b2b;
+}
+
+.hyper-text {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  gap: 4px;
+}
+
+ion-icon {
+  font-size: 22px;
+  fill: red;
+}
+.rgt {
+  fill: green;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.imgg {
+  width: 100%;
+  height: 170px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  object-fit: cover;
+}
+
+.cont {
+  margin-top: 10px;
+  padding: 0px 5px;
+}
+
+.had {
+  font-weight: normal;
+  font-size: 14px;
+}
+.hads {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 3px 0px;
+}
+.hadsubs {
+  font-size: 15px;
+  font-weight: normal;
+}
+.hadsub {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+.hy {
+  display: flex;
+  justify-content: space-between;
+}
+.ryt {
+  font-size: 12px;
+}
+
+.ryt span {
+  text-transform: capitalize;
+  color: #2b2b2b;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 3px;
+}
+
+.star {
+  font-size: 12px;
+}
+
+.filling {
+  fill: rgba(0, 0, 255, 0.502);
+}
+
+.fillings {
+  fill: none;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #2b2b2b;
+}
+
+.book {
+  margin: 10px 0px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.booking {
+  width: 100%;
+  height: 60px;
+  background: rgba(55, 0, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+button {
+  outline: none;
+  padding: 2px 10px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid #2b2b2b;
+}
+
+@media only screen and (min-width: 375px) {
+  .main-wrapper {
+    margin: 25px 0px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .left,
+  .right {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-wrapper {
+    gap: 20px;
+    flex-direction: row;
+  }
+  .left,
+  .right {
+    width: 300px;
+  }
+}
