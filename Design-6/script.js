@@ -3,7 +3,7 @@ const dots = document.querySelectorAll(".dot");
 
 let index = 0;
 
-dots[1].style.opactiy = "1";
+dots[0].style.opacity = "1";
 
 slides.forEach((slide, index) => {
   slide.style.left = `${index * 100}%`;
